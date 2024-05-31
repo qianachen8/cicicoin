@@ -4,7 +4,7 @@ The ICRC-2+ protocol is an enhanced version of the ICRC-2 protocol developed by 
 
 FUDDY'S canister is oeogn-qaaaa-aaaam-acoyq-cai
 
-== New Features List
+== ICRC-2+ New Features List
 === 1. Burn Fee
 
 A fixed amount or percentage of tokens will be sent to the burn address for each on-chain transfer.
