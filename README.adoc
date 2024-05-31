@@ -1,4 +1,4 @@
-= ICRC-2 Plus Ledger
+= FUDDY is built on ICRC-2 Plus Ledger
 
 The ICRC-2+ protocol is an enhanced version of the ICRC-2 protocol developed by the ICPEx team. It aims to enrich the functions of the ICRC-2 protocol and make the ICRC-2 protocol more competitive with the token standards of other public chains. The ICRC-2+ protocol is compatible with both the ICRC-2 and ICRC-1 protocols. Users can import ICRC-2+ protocol tokens just like ICRC-2/ICRC-1 protocol tokens without any additional operations.
 
