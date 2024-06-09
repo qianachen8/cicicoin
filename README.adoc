@@ -1,6 +1,6 @@
 = FUDDY is built on ICRC-2 Plus Ledger
 
-Note: My GitHub repository is fundamentally a fork off of code shared by ICPEx, with a few editions for customisation, particularly in the README (this) file and the imgs folder. Also, there is an addional file i committed containing the code for the frontend integration of Plug wallet into my website (built on Wix) named 'frontend'.
+Note: This GitHub repository is fundamentally a fork off of code shared by ICPEx, with a few editions for customisation, particularly in the README (this) file and the imgs folder. Also, there is an addional file i committed containing the code for the frontend integration of Plug wallet into my website (built on Wix) named 'frontend'.
 
 The ICRC-2+ protocol is an enhanced version of the ICRC-2 protocol developed by the ICPEx team. It aims to enrich the functions of the ICRC-2 protocol and make the ICRC-2 protocol more competitive with the token standards of other public chains. The ICRC-2+ protocol is compatible with both the ICRC-2 and ICRC-1 protocols. Users can import ICRC-2+ protocol tokens just like ICRC-2/ICRC-1 protocol tokens without any additional operations.
 
