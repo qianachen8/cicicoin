@@ -57,4 +57,3 @@ $w.onReady(function () {
         console.error('Button with ID connectWalletButton not found');
     }
 });
-
