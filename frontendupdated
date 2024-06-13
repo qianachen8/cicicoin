@@ -2,21 +2,47 @@ $w.onReady(function () {
     const button = $w('#connectWalletButton');
     if (button) {
         button.onClick(async () => {
+            console.log('Button clicked');
+            console.log('window.ic:', window.ic);
             if (typeof window !== "undefined" && window.ic && window.ic.plug) {
                 try {
-                    // Use the Plug Wallet's connect method to request a connection
-                    const connected = await window.ic.plug.requestConnect({
-                        whitelist: ["your_canister_id"],
-                        timeout: 5000 // optional timeout value
-                    });
+                    console.log('Plug Wallet is detected');
 
-                    if (connected) {
-                        const userPrincipal = await window.ic.plug.agent.getPrincipal();
-                        console.log('Wallet connected. User Principal:', userPrincipal);
-                        // Optionally, show a message to the user or proceed with your logic
+                    // Check if already connected
+                    const isConnected = await window.ic.plug.isConnected();
+                    console.log(`Plug connection is ${isConnected}`);
+
+                    if (!isConnected) {
+                        // Define the configuration details
+                        const nnsCanisterId = 'qoctq-giaaa-aaaaa-aaaea-cai';
+                        const whitelist = [nnsCanisterId];
+                        const host = "https://mainnet.dfinity.network";
+
+                        const onConnectionUpdate = () => {
+                            console.log(window.ic.plug.sessionManager.sessionData);
+                        };
+
+                        // Make the request
+                        const publicKey = await window.ic.plug.requestConnect({
+                            whitelist,
+                            host,
+                            onConnectionUpdate,
+                            timeout: 50000 // Optional timeout value
+                        });
+
+                        console.log(`The connected user's public key is:`, publicKey);
+                        if (publicKey) {
+                            const userPrincipal = await window.ic.plug.agent.getPrincipal();
+                            console.log('Wallet connected. User Principal:', userPrincipal);
+                            // Optionally, show a message to the user or proceed with your logic
+                        } else {
+                            console.error('Connection to Plug Wallet failed');
+                            // Optionally, show a message to the user
+                        }
                     } else {
-                        console.error('Connection to Plug Wallet failed');
-                        // Optionally, show a message to the user
+                        const userPrincipal = await window.ic.plug.agent.getPrincipal();
+                        console.log('Wallet already connected. User Principal:', userPrincipal);
+                        // Optionally, show a message to the user or proceed with your logic
                     }
                 } catch (e) {
                     console.error('Error connecting to Plug Wallet:', e);
@@ -31,3 +57,4 @@ $w.onReady(function () {
         console.error('Button with ID connectWalletButton not found');
     }
 });
+
