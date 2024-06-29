@@ -4,7 +4,7 @@ Welcome to the official GitHub repository of Cici Coin ($CICI), a memecoin that'
 
 ## About Cici Coin ($CICI)
 
-**Cici Coin ($CICI) is not just another memecoin; it's a movement. We are leveraging the power of community and the unique capabilities of the Internet Computer (ICP) to create a fun, engaging, and rewarding experience for all our holders. Beyond its financial appeal, Cici Coin is dedicated to promoting LGBTQ+ and social equality, making it a symbol of inclusivity, support for all, and the unique magic of the unicorn.
+**Cici Coin ($CICI)** is not just another memecoin; it's a movement. We are leveraging the power of community and the unique capabilities of the Internet Computer (ICP) to create a fun, engaging, and rewarding experience for all our holders. Beyond its financial appeal, Cici Coin is dedicated to promoting LGBTQ+ and social equality, making it a symbol of inclusivity, support for all, and the unique magic of the unicorn.
 
 ### The Story of Cici Coin
 
@@ -96,5 +96,7 @@ The Cici Coin airdrop aims to reward early adopters and active community members
 
 Stay updated and join the conversation across our social media platforms:
 - **Website**: [Duck Buck Website](https://cicicoin.io/)
-- **X (Twitter)**: [Duck Buck Twitter](https://x.com/Cicicoinhouse)
+
+- **X(Twitter)**: [Duck Buck Twitter](https://x.com/Cicicoinhouse)
+
 - **Telegram**: [Duck Buck Telegram]()
