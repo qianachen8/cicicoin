@@ -54,7 +54,7 @@ The Cici Coin airdrop aims to reward early adopters and active community members
   - Verification of task completion through integration with social media APIs.
 
 - **Distribution**:
-  - The airdrop will distribute 200,000,000 CICI tokens over a period of 3 months.
+  - The airdrop will distribute 1,984,000,000 CICI tokens over a period of 3 months.
   - Tokens will be distributed in three phases: 40% in the first month, 35% in the second month, and 25% in the third month.
   - Airdrop amounts will vary based on the user's engagement level and task completion.
 
