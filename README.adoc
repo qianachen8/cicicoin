@@ -1,6 +1,6 @@
 # Cici Coin ($CICI)
 
-Welcome to the official GitHub repository of Cici Coin ($CICI), a memecoin that's taking the internet by storm! We're thrilled to be participating in the Memethon, and this README will provide you with all the details about our project, how you can get involved, and where to find us on social media.
+Welcome to the official GitHub repository of **Cici Coin ($CICI)**, a memecoin that's taking the internet by storm! We're thrilled to be participating in the Memethon, and this README will provide you with all the details about our project, how you can get involved, and where to find us on social media.
 
 ## About Cici Coin ($CICI)
 
@@ -11,7 +11,7 @@ Welcome to the official GitHub repository of Cici Coin ($CICI), a memecoin that'
 In the enchanted dreamland, a humble unicorn named Cici dreamed of a world where everyone could enjoy the magic of memes and live in harmony. In this world of unicorns, symbols of purity, dreams, and boundless possibilities, Cici discovered the power of blockchain and created Cici Coin ($CICI) to bring joy, prosperity, and equality to the masses. Join Cici's adventure and be a part of the most exciting and inclusive memecoin community ever!
 
 
-## Highlights from Our Whitepaper
+## Highlights 
 
 ### Total Supply
 
@@ -95,6 +95,7 @@ The Cici Coin airdrop aims to reward early adopters and active community members
 ## Social Media
 
 Stay updated and join the conversation across our social media platforms:
+
 - **Website**: [Duck Buck Website](https://cicicoin.io/)
 
 - **X(Twitter)**: [Duck Buck Twitter](https://x.com/Cicicoinhouse)
